@@ -33,9 +33,22 @@
 		BDF9AF922D977A040045594A /* XBikeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XBikeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		BD2DCF782D97CF8200B59560 /* Exceptions for "XBike" folder in "XBike" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = BDF9AF772D9779FF0045594A /* XBike */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		BDF9AF7A2D9779FF0045594A /* XBike */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				BD2DCF782D97CF8200B59560 /* Exceptions for "XBike" folder in "XBike" target */,
+			);
 			path = XBike;
 			sourceTree = "<group>";
 		};
@@ -408,6 +421,9 @@
 				DEVELOPMENT_TEAM = PBUMD9UYD8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = XBike/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need your location for improved navigation.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to show your current position on the map.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -437,6 +453,9 @@
 				DEVELOPMENT_TEAM = PBUMD9UYD8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = XBike/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need your location for improved navigation.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to show your current position on the map.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
